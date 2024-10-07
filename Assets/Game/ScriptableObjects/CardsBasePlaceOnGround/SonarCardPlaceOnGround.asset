@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2427332692ae06e49bf94acc35998156, type: 3}
+  m_Name: SonarCardPlaceOnGround
+  m_EditorClassIdentifier: 
+  uiPosition: 15
+  slotAvailabilityManagerPrefab: {fileID: -7583240089342861257, guid: ca9694158ebbec14a897b70144cf2d2c, type: 3}
+  spawnedSlotAvailabilityManager: {fileID: 0}
+  placeAbleItems:
+  - {fileID: 11400000, guid: e9e2f49f38648144581cf73f53eb2512, type: 2}
+  - {fileID: 11400000, guid: 2247273bfe89b9047a1e67addd266485, type: 2}

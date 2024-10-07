@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9216d51714faa74385107c83dcb5e3e, type: 3}
+  m_Name: Submarine Light_SubmarineDive_Ability
+  m_EditorClassIdentifier: 
+  diveTurns: 2
+  targetTypeOnDive: {fileID: 11400000, guid: 2247273bfe89b9047a1e67addd266485, type: 2}
+  diveUi: {fileID: 7149673590979453650, guid: 352ded87f34adf74f814068fe9f97f4b, type: 3}

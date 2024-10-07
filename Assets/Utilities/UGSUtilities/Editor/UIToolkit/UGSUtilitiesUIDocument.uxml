@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement style="flex-grow: 1;">
+        <ui:Label tabindex="-1" text="UGS Utilities" parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-text-align: upper-center;" />
+        <ui:VisualElement style="flex-grow: 1;">
+            <ui:Button text="SignIn" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SignIn" style="margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px;" />
+            <ui:VisualElement name="AddItemToPlayer" style="background-color: rgba(255, 255, 255, 0.2); margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px;">
+                <ui:TextField label="Player ID" name="PlayerID" />
+                <ui:TextField label="Item ID" name="ItemID" />
+                <ui:Button text="Add Item to player inventory" parse-escape-sequences="true" display-tooltip-when-elided="true" name="AddItem" />
+            </ui:VisualElement>
+            <ui:VisualElement name="SignUpWithUsernameAndPassword" style="flex-grow: 1; flex-direction: column; background-color: rgba(255, 255, 255, 0.2); margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px;">
+                <ui:TextField label="Player Username" name="PlayerUsername" />
+                <ui:TextField label="Player Password" name="PlayerPassword" />
+                <ui:Button text="Sign Up New Player" parse-escape-sequences="true" display-tooltip-when-elided="true" name="AddPlayerAccount" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,11 @@
+{
+  "type": "INVENTORY_ITEM",
+  "id": "FUEL_CAN",
+  "name": "Fuel can",
+  "customData": {
+    "effectDescription": "+3 damage to equipped card",
+    "maxDeckable": 2,
+    "rarity": "epic",
+    "type": "support"
+  }
+}

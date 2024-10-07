@@ -1,0 +1,87 @@
+{
+  "entries": 
+    {
+        "CardBattleSettings": 
+        {
+            "playersHandCardsAtStart":3,
+            "playersMaxFuel":10,
+            "playersMaxTurns":20,
+            "turnLifeTimeInSeconds":90,
+            "battlePlayerSlots":
+            [
+                {"types":["aircraft","ship","submarine"],
+                "bgImage":"water"},
+                {"types":["aircraft","ship","submarine"],
+                "bgImage":"water"},
+                {"types":["aircraft","ship","submarine"],
+                "bgImage":"water"},
+                {"types":["aircraft","tank"],
+                "bgImage":"ground"},
+                {"types":["aircraft","tank"],
+                "bgImage":"ground"},
+                {"types":["aircraft","tank"],
+                "bgImage":"ground"},
+                {"types":["defense"],
+                "bgImage":""},
+                {"types":["defense"],
+                "bgImage":""},
+                {"types":["defense"],
+                "bgImage":""},
+                {"types":["defense"],
+                "bgImage":""},
+                {"types":["defense"],
+                "bgImage":""},
+                {"types":["defense"],
+                "bgImage":""}
+            ]
+        },
+    
+        
+        "DecksSettings":  {"maxDecksQuantity":5,"maxDeckCardsQuantity":30},
+             
+        "DefaultItems": 
+        {
+            "defaultItems":
+            [
+                "AIR_CEMETERY",
+                "AMMUNITIONS",
+                "ANTIAIRCRAFT",
+                "ANTI_TANK",
+                "ANTI_TANK_MINE",
+                "ARTILLERY",
+                "BARRAGE_BALLOON",
+                "BATTLESHIP",
+                "BUNKER",
+                "CARRIER",
+                "CRUISER",
+                "DEPTH_CHARGE",
+                "FIGHTER",
+                "FLOATING_BUOY",
+                "FLOATING_MINE",
+                "FUEL_CAN",
+                "HEAVY_TANK",
+                "LIGHT_TANK",
+                "MEDIUM_TANK",
+                "MILITARY_ANTENNA",
+                "RADAR",
+                "RADIO",
+                "RECONNAISSANCE",
+                "REPAIRS",
+                "SMOKESCREEN",
+                "SONAR",
+                "SUBMARINE_LIGHT_CLASS",
+                "SUBMARINE_OCEANIC_CLASS",
+                "SUBMARINE_U_BOAT",
+                "SUPERKANONE",
+                "TORPEDO_BOMBER",
+                "TORPEDO_PLANES",
+                "TSUNAMI"
+            ]
+        }
+    },
+  "types" : {
+    "CardBattleSettings": "JSON",
+    "DecksSettings": "JSON",
+    "DefaultItems": "JSON"
+  }
+}

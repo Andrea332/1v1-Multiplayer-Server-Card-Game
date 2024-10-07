@@ -1,0 +1,16 @@
+{
+  "type": "INVENTORY_ITEM",
+  "id": "ANTI_TANK",
+  "name": "Anti tank",
+  "customData": {
+    "cost": 3,
+    "effectDescription": "As long as it is on the ground, opposing tanks must target it",
+    "health": 5,
+    "maxDeckable": 4,
+    "rarity": "rare",
+    "targetType": [
+      "tank"
+    ],
+    "type": "defense"
+  }
+}

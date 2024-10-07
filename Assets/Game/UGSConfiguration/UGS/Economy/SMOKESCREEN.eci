@@ -1,0 +1,12 @@
+{
+  "type": "INVENTORY_ITEM",
+  "id": "SMOKESCREEN",
+  "name": "Smokescreen",
+  "customData": {
+    "cost": 3,
+    "effectDescription": "Smoking is harmful to your healt. This card blocks an opponent's attack slot for five turns.",
+    "maxDeckable": 4,
+    "rarity": "common",
+    "type": "defense"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "INVENTORY_ITEM",
+  "id": "ANTIAIRCRAFT",
+  "name": "Antiaircraft",
+  "customData": {
+    "attack": 5,
+    "cost": 3,
+    "effectDescription": "Target up to two aircraft per turn : deal 5 damage.",
+    "health": 5,
+    "maxAttackTimes": 2,
+    "maxDeckable": 4,
+    "rarity": "epic",
+    "targetType": [
+      "aircraft"
+    ],
+    "type": "defense"
+  }
+}

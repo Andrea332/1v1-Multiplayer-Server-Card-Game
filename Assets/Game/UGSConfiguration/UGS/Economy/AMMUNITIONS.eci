@@ -1,0 +1,13 @@
+{
+  "type": "INVENTORY_ITEM",
+  "id": "AMMUNITIONS",
+  "name": "Ammunitions",
+  "customData": {
+    "cost": 3,
+    "effectDescription": "+3 damage to equipped card",
+    "health": 3,
+    "maxDeckable": 3,
+    "rarity": "common",
+    "type": "support"
+  }
+}

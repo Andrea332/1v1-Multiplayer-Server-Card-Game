@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 547ab6a858d45a94996515d140363a7d, type: 3}
+  m_Name: Depth charge
+  m_EditorClassIdentifier: 
+  itemProperties:
+  - idObject: {fileID: 11400000, guid: 26835ddeb6a686a4bb0c5535cdff46db, type: 2}
+    item: {fileID: 11400000, guid: 63d1be117bf432b4c847e4069537794a, type: 2}
+  - idObject: {fileID: 11400000, guid: ea8cf0d498af1ac49ae0f8064ade9cea, type: 2}
+    item: {fileID: 11400000, guid: 7f5c3a1eadfbf284fa67e946acc98fe2, type: 2}
+  - idObject: {fileID: 11400000, guid: 6697f8d7d5c7075489c5818b3e6fa716, type: 2}
+    item: {fileID: 11400000, guid: c8e12e51e19e2244b874d1c1104833a7, type: 2}
+  - idObject: {fileID: 11400000, guid: 852efe2c38ef705469545d29e0342c2b, type: 2}
+    item: {fileID: 11400000, guid: 2595c730366ee614ab77ed9908357fac, type: 2}

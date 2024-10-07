@@ -1,0 +1,17 @@
+{
+  "type": "INVENTORY_ITEM",
+  "id": "SONAR",
+  "name": "Sonar",
+  "customData": {
+    "cost": 4,
+    "effectDescription": "Only usable if you have Ships or Submarines: Emerge an opposing submarine and deal  two damage",
+    "maxDeckable": 3,
+    "rarity": "common",
+    "requirement": "ship",
+    "targetType": [
+      "ship",
+      "submarine"
+    ],
+    "type": "support"
+  }
+}

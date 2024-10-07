@@ -1,0 +1,19 @@
+{
+  "type": "INVENTORY_ITEM",
+  "id": "RECONNAISSANCE",
+  "name": "Reconnaissance",
+  "customData": {
+    "attack": 2,
+    "cost": 3,
+    "effectDescription": "We see everything, we know eberything. ROA: This card can move along the entire attack row the specified number of slots",
+    "health": 4,
+    "maxDeckable": 4,
+    "rarity": "rare",
+    "targetType": [
+      "ship",
+      "aircraft",
+      "tank"
+    ],
+    "type": "aircraft"
+  }
+}

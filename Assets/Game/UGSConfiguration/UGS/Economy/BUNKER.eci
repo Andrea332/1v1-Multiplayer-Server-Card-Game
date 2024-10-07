@@ -1,0 +1,17 @@
+{
+  "type": "INVENTORY_ITEM",
+  "id": "BUNKER",
+  "name": "Bunker",
+  "customData": {
+    "cost": 6,
+    "effectDescription": "Absorb all damage inflicted on the equipped card.",
+    "health": 16,
+    "maxDeckable": 4,
+    "rarity": "common",
+    "targetType": [
+      "tank",
+      "aircraft"
+    ],
+    "type": "defense"
+  }
+}

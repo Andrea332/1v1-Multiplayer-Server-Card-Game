@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e850a870a6de474f9796a7ea468e379, type: 3}
+  m_Name: Bunker_Ability
+  m_EditorClassIdentifier: 
+  startOnDeployed: 0
+  tankItemId: {fileID: 11400000, guid: 61d60fc205ca6674ea6d6c444d1bec5c, type: 2}
+  aircraftItemId: {fileID: 11400000, guid: 61563bf419a834e4d81a4bb32a2c2b3d, type: 2}
+  uiPosition: 15
+  slotAvailabilityManagerBunkerPrefab: {fileID: 3516518040578614868, guid: ce485d92db6ced14793a51bce845f9a0, type: 3}

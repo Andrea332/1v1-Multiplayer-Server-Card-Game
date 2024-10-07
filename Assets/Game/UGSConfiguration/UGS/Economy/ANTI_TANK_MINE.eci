@@ -1,0 +1,12 @@
+{
+  "type": "INVENTORY_ITEM",
+  "id": "ANTI_TANK_MINE",
+  "name": "Anti-tank mine",
+  "customData": {
+    "cost": 2,
+    "effectDescription": "Activate when a tank attacks : Inflict 3 damage, destroy this card",
+    "maxDeckable": 4,
+    "rarity": "common",
+    "type": "defense"
+  }
+}

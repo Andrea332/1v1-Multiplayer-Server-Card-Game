@@ -1,0 +1,13 @@
+{
+  "type": "INVENTORY_ITEM",
+  "id": "BARRAGE_BALLOON",
+  "name": "Barrage Balloon",
+  "customData": {
+    "cost": 2,
+    "effectDescription": "Earn +2 points, can only be damaged by aircraft",
+    "health": 10,
+    "maxDeckable": 4,
+    "rarity": "rare",
+    "type": "defense"
+  }
+}

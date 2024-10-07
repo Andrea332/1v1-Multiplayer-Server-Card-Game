@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81b0dd285859c10439184a5950884ff6, type: 3}
+  m_Name: Artillery_Ability
+  m_EditorClassIdentifier: 
+  startOnDeployed: 0
+  uiPosition: 15
+  tankItemId: {fileID: 11400000, guid: 61d60fc205ca6674ea6d6c444d1bec5c, type: 2}
+  mainCardDamageBeforeDestroying: 3
+  slotAvailabilityManagerPrefab: {fileID: 1637802327334013344, guid: bf3ddf854a132eb4c9e7b4fea4748477, type: 3}

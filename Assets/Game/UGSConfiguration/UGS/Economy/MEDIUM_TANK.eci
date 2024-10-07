@@ -1,0 +1,18 @@
+{
+  "type": "INVENTORY_ITEM",
+  "id": "MEDIUM_TANK",
+  "name": "Medium Tank",
+  "customData": {
+    "attack": 2,
+    "cost": 4,
+    "effectDescription": "A medium tank with a glamour skin.",
+    "health": 8,
+    "maxDeckable": 4,
+    "rarity": "rare",
+    "targetType": [
+      "tank",
+      "aircraft"
+    ],
+    "type": "tank"
+  }
+}

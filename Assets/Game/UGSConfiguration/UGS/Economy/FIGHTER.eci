@@ -1,0 +1,19 @@
+{
+  "type": "INVENTORY_ITEM",
+  "id": "FIGHTER",
+  "name": "Fighter",
+  "customData": {
+    "attack": 1,
+    "cost": 2,
+    "effectDescription": "Where the power of air meets the power of fire. ROA: This card can move along the entire attack row the specified number of slots",
+    "health": 3,
+    "maxDeckable": 4,
+    "rarity": "common",
+    "targetType": [
+      "tank",
+      "aircraft",
+      "ship"
+    ],
+    "type": "aircraft"
+  }
+}

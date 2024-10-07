@@ -1,0 +1,18 @@
+{
+  "type": "INVENTORY_ITEM",
+  "id": "HEAVY_TANK",
+  "name": "Heavy Tank",
+  "customData": {
+    "attack": 3,
+    "cost": 8,
+    "effectDescription": "With iron tracks and a heart of steel.",
+    "health": 10,
+    "maxDeckable": 4,
+    "rarity": "epic",
+    "targetType": [
+      "tank",
+      "aircraft"
+    ],
+    "type": "tank"
+  }
+}

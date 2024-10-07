@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 469c24fdb3bd6431b92cc1465bd9166b, type: 3}
+  m_Name: RemoteConfigDataStoreAsset
+  m_EditorClassIdentifier: 
+  _rsKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"8810d8db-fcfd-4383-8cfa-a6856b8bede9\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"DefaultItems\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": {\r\n        \"defaultItems\": [\r\n         
+    \"AIR_CEMETERY\",\r\n          \"AMMUNITIONS\",\r\n          \"ANTIAIRCRAFT\",\r\n         
+    \"ANTI_TANK\",\r\n          \"ANTI_TANK_MINE\",\r\n          \"ARTILLERY\",\r\n         
+    \"BARRAGE_BALLOON\",\r\n          \"BATTLESHIP\",\r\n          \"BUNKER\",\r\n         
+    \"CARRIER\",\r\n          \"CRUISER\",\r\n          \"DEPTH_CHARGE\",\r\n         
+    \"FIGHTER\",\r\n          \"FLOATING_BUOY\",\r\n          \"FLOATING_MINE\",\r\n         
+    \"FUEL_CAN\",\r\n          \"HEAVY_TANK\",\r\n          \"LIGHT_TANK\",\r\n         
+    \"MEDIUM_TANK\",\r\n          \"MILITARY_ANTENNA\",\r\n          \"RADAR\",\r\n         
+    \"RADIO\",\r\n          \"RECONNAISSANCE\",\r\n          \"REPAIRS\",\r\n         
+    \"SMOKESCREEN\",\r\n          \"SONAR\",\r\n          \"SUBMARINE_LIGHT_CLASS\",\r\n         
+    \"SUBMARINE_OCEANIC_CLASS\",\r\n          \"SUBMARINE_U_BOAT\",\r\n         
+    \"SUPERKANONE\",\r\n          \"TORPEDO_BOMBER\",\r\n          \"TORPEDO_PLANES\",\r\n         
+    \"TSUNAMI\"\r\n        ]\r\n      }\r\n    }\r\n  },\r\n  {\r\n    \"metadata\":
+    {\r\n      \"entityId\": \"28ff46ae-b226-4aed-893e-56cbe1746972\"\r\n    },\r\n   
+    \"rs\": {\r\n      \"key\": \"CardBattleSettings\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": {\r\n        \"playersHandCardsAtStart\":
+    3,\r\n        \"playersMaxFuel\": 10,\r\n        \"playersMaxTurns\": 10,\r\n       
+    \"turnLifeTimeInSeconds\": 90,\r\n        \"battlePlayerSlots\": [\r\n         
+    {\r\n            \"types\": [\r\n              \"aircraft\",\r\n             
+    \"ship\",\r\n              \"submarine\"\r\n            ],\r\n            \"bgImage\":
+    \"water\"\r\n          },\r\n          {\r\n            \"types\": [\r\n             
+    \"aircraft\",\r\n              \"ship\",\r\n              \"submarine\"\r\n           
+    ],\r\n            \"bgImage\": \"water\"\r\n          },\r\n          {\r\n           
+    \"types\": [\r\n              \"aircraft\",\r\n              \"ship\",\r\n             
+    \"submarine\"\r\n            ],\r\n            \"bgImage\": \"water\"\r\n         
+    },\r\n          {\r\n            \"types\": [\r\n              \"aircraft\",\r\n             
+    \"tank\"\r\n            ],\r\n            \"bgImage\": \"ground\"\r\n         
+    },\r\n          {\r\n            \"types\": [\r\n              \"aircraft\",\r\n             
+    \"tank\"\r\n            ],\r\n            \"bgImage\": \"ground\"\r\n         
+    },\r\n          {\r\n            \"types\": [\r\n              \"defense\"\r\n           
+    ],\r\n            \"bgImage\": \"ground\"\r\n          },\r\n          {\r\n           
+    \"types\": [\r\n              \"defense\"\r\n            ],\r\n            \"bgImage\":
+    \"\"\r\n          },\r\n          {\r\n            \"types\": [\r\n             
+    \"defense\"\r\n            ],\r\n            \"bgImage\": \"\"\r\n          },\r\n         
+    {\r\n            \"types\": [\r\n              \"defense\"\r\n            ],\r\n           
+    \"bgImage\": \"\"\r\n          },\r\n          {\r\n            \"types\": [\r\n             
+    \"defense\"\r\n            ],\r\n            \"bgImage\": \"\"\r\n          },\r\n         
+    {\r\n            \"types\": [\r\n              \"defense\"\r\n            ],\r\n           
+    \"bgImage\": \"\"\r\n          },\r\n          {\r\n            \"types\": [\r\n             
+    \"defense\"\r\n            ],\r\n            \"bgImage\": \"\"\r\n          }\r\n       
+    ]\r\n      }\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\":
+    \"c05431ef-1d3a-4edc-ba1a-8071bab35983\"\r\n    },\r\n    \"rs\": {\r\n     
+    \"key\": \"DecksSettings\",\r\n      \"type\": \"json\",\r\n      \"schemaId\":
+    null,\r\n      \"value\": {\r\n        \"maxDecksQuantity\": 5,\r\n        \"maxDeckCardsQuantity\":
+    30\r\n      }\r\n    }\r\n  }\r\n]"
+  _rsLastCachedKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"8810d8db-fcfd-4383-8cfa-a6856b8bede9\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"DefaultItems\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": {\r\n        \"defaultItems\": [\r\n         
+    \"AIR_CEMETERY\",\r\n          \"AMMUNITIONS\",\r\n          \"ANTIAIRCRAFT\",\r\n         
+    \"ANTI_TANK\",\r\n          \"ANTI_TANK_MINE\",\r\n          \"ARTILLERY\",\r\n         
+    \"BARRAGE_BALLOON\",\r\n          \"BATTLESHIP\",\r\n          \"BUNKER\",\r\n         
+    \"CARRIER\",\r\n          \"CRUISER\",\r\n          \"DEPTH_CHARGE\",\r\n         
+    \"FIGHTER\",\r\n          \"FLOATING_BUOY\",\r\n          \"FLOATING_MINE\",\r\n         
+    \"FUEL_CAN\",\r\n          \"HEAVY_TANK\",\r\n          \"LIGHT_TANK\",\r\n         
+    \"MEDIUM_TANK\",\r\n          \"MILITARY_ANTENNA\",\r\n          \"RADAR\",\r\n         
+    \"RADIO\",\r\n          \"RECONNAISSANCE\",\r\n          \"REPAIRS\",\r\n         
+    \"SMOKESCREEN\",\r\n          \"SONAR\",\r\n          \"SUBMARINE_LIGHT_CLASS\",\r\n         
+    \"SUBMARINE_OCEANIC_CLASS\",\r\n          \"SUBMARINE_U_BOAT\",\r\n         
+    \"SUPERKANONE\",\r\n          \"TORPEDO_BOMBER\",\r\n          \"TORPEDO_PLANES\",\r\n         
+    \"TSUNAMI\"\r\n        ]\r\n      }\r\n    }\r\n  },\r\n  {\r\n    \"metadata\":
+    {\r\n      \"entityId\": \"28ff46ae-b226-4aed-893e-56cbe1746972\"\r\n    },\r\n   
+    \"rs\": {\r\n      \"key\": \"CardBattleSettings\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": {\r\n        \"playersHandCardsAtStart\":
+    3,\r\n        \"playersMaxFuel\": 10,\r\n        \"playersMaxTurns\": 10,\r\n       
+    \"turnLifeTimeInSeconds\": 90,\r\n        \"battlePlayerSlots\": [\r\n         
+    {\r\n            \"types\": [\r\n              \"aircraft\",\r\n             
+    \"ship\",\r\n              \"submarine\"\r\n            ],\r\n            \"bgImage\":
+    \"water\"\r\n          },\r\n          {\r\n            \"types\": [\r\n             
+    \"aircraft\",\r\n              \"ship\",\r\n              \"submarine\"\r\n           
+    ],\r\n            \"bgImage\": \"water\"\r\n          },\r\n          {\r\n           
+    \"types\": [\r\n              \"aircraft\",\r\n              \"ship\",\r\n             
+    \"submarine\"\r\n            ],\r\n            \"bgImage\": \"water\"\r\n         
+    },\r\n          {\r\n            \"types\": [\r\n              \"aircraft\",\r\n             
+    \"tank\"\r\n            ],\r\n            \"bgImage\": \"ground\"\r\n         
+    },\r\n          {\r\n            \"types\": [\r\n              \"aircraft\",\r\n             
+    \"tank\"\r\n            ],\r\n            \"bgImage\": \"ground\"\r\n         
+    },\r\n          {\r\n            \"types\": [\r\n              \"defense\"\r\n           
+    ],\r\n            \"bgImage\": \"ground\"\r\n          },\r\n          {\r\n           
+    \"types\": [\r\n              \"defense\"\r\n            ],\r\n            \"bgImage\":
+    \"\"\r\n          },\r\n          {\r\n            \"types\": [\r\n             
+    \"defense\"\r\n            ],\r\n            \"bgImage\": \"\"\r\n          },\r\n         
+    {\r\n            \"types\": [\r\n              \"defense\"\r\n            ],\r\n           
+    \"bgImage\": \"\"\r\n          },\r\n          {\r\n            \"types\": [\r\n             
+    \"defense\"\r\n            ],\r\n            \"bgImage\": \"\"\r\n          },\r\n         
+    {\r\n            \"types\": [\r\n              \"defense\"\r\n            ],\r\n           
+    \"bgImage\": \"\"\r\n          },\r\n          {\r\n            \"types\": [\r\n             
+    \"defense\"\r\n            ],\r\n            \"bgImage\": \"\"\r\n          }\r\n       
+    ]\r\n      }\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\":
+    \"c05431ef-1d3a-4edc-ba1a-8071bab35983\"\r\n    },\r\n    \"rs\": {\r\n     
+    \"key\": \"DecksSettings\",\r\n      \"type\": \"json\",\r\n      \"schemaId\":
+    null,\r\n      \"value\": {\r\n        \"maxDecksQuantity\": 5,\r\n        \"maxDeckCardsQuantity\":
+    30\r\n      }\r\n    }\r\n  }\r\n]"
+  _environments: "[\r\n  {\r\n    \"projectId\": \"c1003709-927a-4012-bf44-37f4d8736696\",\r\n   
+    \"name\": \"production\",\r\n    \"id\": \"a7c01dbe-e022-442d-9eb0-12da26e1f5b2\",\r\n   
+    \"isDefault\": true,\r\n    \"createdAt\": \"2023-12-19T15:38:47Z\",\r\n    \"updatedAt\":
+    \"2023-12-19T15:38:47Z\"\r\n  }\r\n]"

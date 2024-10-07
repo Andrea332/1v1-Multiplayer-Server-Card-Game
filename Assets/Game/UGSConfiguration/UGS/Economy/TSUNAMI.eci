@@ -1,0 +1,15 @@
+{
+  "type": "INVENTORY_ITEM",
+  "id": "TSUNAMI",
+  "name": "Tsunami",
+  "customData": {
+    "effectDescription": "Destroy all the opponent's ship and submarine cards.",
+    "maxDeckable": 1,
+    "rarity": "qg",
+    "targetType": [
+      "tank",
+      "submarine"
+    ],
+    "type": "ship"
+  }
+}

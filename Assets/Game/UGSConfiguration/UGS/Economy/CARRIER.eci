@@ -1,0 +1,19 @@
+{
+  "type": "INVENTORY_ITEM",
+  "id": "CARRIER",
+  "name": "Carrier",
+  "customData": {
+    "attack": 3,
+    "cost": 6,
+    "effectDescription": "I'm on the high seas.",
+    "health": 9,
+    "maxDeckable": 4,
+    "rarity": "epic",
+    "targetType": [
+      "ship",
+      "aircraft",
+      "submarine"
+    ],
+    "type": "ship"
+  }
+}

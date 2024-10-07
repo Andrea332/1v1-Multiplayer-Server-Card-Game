@@ -1,0 +1,18 @@
+{
+  "type": "INVENTORY_ITEM",
+  "id": "SUBMARINE_LIGHT_CLASS",
+  "name": "Submarine Light Class",
+  "customData": {
+    "attack": 2,
+    "cost": 3,
+    "effectDescription": "No one keeps secrets better than him. Dive: can target and be targeted only by submarines. Attacks directly if there are no submerged cards.",
+    "health": 5,
+    "maxDeckable": 4,
+    "rarity": "rare",
+    "targetType": [
+      "ship",
+      "submarine"
+    ],
+    "type": "submarine"
+  }
+}

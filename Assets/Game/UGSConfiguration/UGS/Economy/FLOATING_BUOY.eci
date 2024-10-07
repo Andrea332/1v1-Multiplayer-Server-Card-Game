@@ -1,0 +1,13 @@
+{
+  "type": "INVENTORY_ITEM",
+  "id": "FLOATING_BUOY",
+  "name": "Floating buoy",
+  "customData": {
+    "cost": 2,
+    "effectDescription": "Earn +2 points, can only be damaged by ships and submarines",
+    "health": 10,
+    "maxDeckable": 4,
+    "rarity": "rare",
+    "type": "defense"
+  }
+}

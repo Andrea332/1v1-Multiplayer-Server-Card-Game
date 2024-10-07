@@ -1,0 +1,301 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1098886086029767352
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 482635187599473085}
+  - component: {fileID: 8038813355305327836}
+  - component: {fileID: 4532172220285718643}
+  - component: {fileID: 3461459880354014631}
+  m_Layer: 0
+  m_Name: MirrorNetworkManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &482635187599473085
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1098886086029767352}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 711528562433267124}
+  - {fileID: 8289645059287407394}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8038813355305327836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1098886086029767352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 673786b028251b741a7f9c6e431825d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dontDestroyOnLoad: 1
+  runInBackground: 1
+  headlessStartMode: 0
+  editorAutoStart: 0
+  sendRate: 60
+  autoStartServerBuild: 0
+  autoConnectClientBuild: 0
+  offlineScene: 
+  onlineScene: 
+  transport: {fileID: 4532172220285718643}
+  networkAddress: localhost
+  maxConnections: 2
+  disconnectInactiveConnections: 0
+  disconnectInactiveTimeout: 60
+  authenticator: {fileID: 3461459880354014631}
+  playerPrefab: {fileID: 1222480019768546907, guid: a27df496a88c1c240ade62a319ece54f,
+    type: 3}
+  autoCreatePlayer: 1
+  playerSpawnMethod: 0
+  spawnPrefabs:
+  - {fileID: 1685654149618546533, guid: 327394c126bd69e4e8dcc76552046185, type: 3}
+  exceptionsDisconnect: 1
+  snapshotSettings:
+    bufferTimeMultiplier: 2
+    bufferLimit: 32
+    catchupNegativeThreshold: -1
+    catchupPositiveThreshold: 1
+    catchupSpeed: 0.019999999552965164
+    slowdownSpeed: 0.03999999910593033
+    driftEmaDuration: 1
+    dynamicAdjustment: 1
+    dynamicAdjustmentTolerance: 1
+    deliveryTimeEmaDuration: 2
+  evaluationMethod: 0
+  evaluationInterval: 3
+  timeInterpolationGui: 0
+--- !u!114 &4532172220285718643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1098886086029767352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b0fecffa3f624585964b0d0eb21b18e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  port: 7778
+  DualMode: 1
+  NoDelay: 1
+  Interval: 10
+  Timeout: 10000
+  RecvBufferSize: 7361536
+  SendBufferSize: 7361536
+  FastResend: 2
+  ReceiveWindowSize: 4096
+  SendWindowSize: 4096
+  MaxRetransmit: 40
+  MaximizeSocketBuffers: 1
+  ReliableMaxMessageSize: 297433
+  UnreliableMaxMessageSize: 1194
+  debugLog: 0
+  statisticsGUI: 0
+  statisticsLog: 0
+--- !u!114 &3461459880354014631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1098886086029767352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f330fabc66446e4e9dc0368b049c1a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnServerAuthenticated:
+    m_PersistentCalls:
+      m_Calls: []
+  OnClientAuthenticated:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!1 &1803945587447008309
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 711528562433267124}
+  - component: {fileID: 6623034794395086817}
+  - component: {fileID: 9199256272080522362}
+  - component: {fileID: 1811152269974743708}
+  m_Layer: 0
+  m_Name: ServerManger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &711528562433267124
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1803945587447008309}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 482635187599473085}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6623034794395086817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1803945587447008309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88d9cb1f8ce665044899934eca3bc4ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &9199256272080522362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1803945587447008309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cbb33dd5e6d11a4391a8a72194c75f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  midwarAuthenticator: {fileID: 3461459880354014631}
+  midwarNetworkManager: {fileID: 8038813355305327836}
+--- !u!114 &1811152269974743708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1803945587447008309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b903da1df8306b4faa5ea7167fc5ded, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  midwarNetworkManager: {fileID: 8038813355305327836}
+  ugsServerManager: {fileID: 9199256272080522362}
+  cardBattleBoardManagerPrefab: {fileID: 6550338113177469242, guid: 327394c126bd69e4e8dcc76552046185,
+    type: 3}
+--- !u!1 &8466883205666560971
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8289645059287407394}
+  - component: {fileID: 8536468469078511571}
+  - component: {fileID: 1167598726871128708}
+  m_Layer: 0
+  m_Name: ClientManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8289645059287407394
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8466883205666560971}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 482635187599473085}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8536468469078511571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8466883205666560971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 645fed62147578c4784ed947eafd1cd7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1167598726871128708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8466883205666560971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0cc57c97aab7c0408b18566e8af4cb3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startClientEvent: {fileID: 11400000, guid: e34fc97348b45e1479654d694fdc49aa, type: 2}
+  stopClientEvent: {fileID: 11400000, guid: e79bd175d692da2458d85087113935af, type: 2}
+  debugIpAddress: 34.88.168.90
+  debugPort: 9000
+  midwarNetworkManager: {fileID: 8038813355305327836}
+  onClientConnect:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 93a2ecdfda850bc4297783e4755652dd, type: 2}
+        m_TargetAssemblyTypeName: ScriptableObjectEvents.ScriptableObjectEvent, Assembly-CSharp
+        m_MethodName: FireEvent
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onClientDisconnect:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 9a88449d1e5ac4d4dab5e8b293fc61e7, type: 2}
+        m_TargetAssemblyTypeName: Midwar.Instantiator, Assembly-CSharp
+        m_MethodName: SpawnPrefab
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

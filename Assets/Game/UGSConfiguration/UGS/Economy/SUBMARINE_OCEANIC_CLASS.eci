@@ -1,0 +1,18 @@
+{
+  "type": "INVENTORY_ITEM",
+  "id": "SUBMARINE_OCEANIC_CLASS",
+  "name": "Submarine Oceanic Class",
+  "customData": {
+    "attack": 3,
+    "cost": 5,
+    "effectDescription": "We all live in a yellow submarine..ehm, black submarine... Dive: can target and be targeted only by submarines. Attacks directly if there are no submerged cards.",
+    "health": 6,
+    "maxDeckable": 4,
+    "rarity": "epic",
+    "targetType": [
+      "ship",
+      "submarine"
+    ],
+    "type": "submarine"
+  }
+}

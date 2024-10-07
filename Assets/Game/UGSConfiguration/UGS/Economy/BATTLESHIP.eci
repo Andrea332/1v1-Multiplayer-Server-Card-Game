@@ -1,0 +1,19 @@
+{
+  "type": "INVENTORY_ITEM",
+  "id": "BATTLESHIP",
+  "name": "Battleship",
+  "customData": {
+    "attack": 1,
+    "cost": 1,
+    "effectDescription": "Like floating castles, but much more terrible",
+    "health": 3,
+    "maxDeckable": 4,
+    "rarity": "common",
+    "targetType": [
+      "ship",
+      "aircraft",
+      "submarine"
+    ],
+    "type": "ship"
+  }
+}

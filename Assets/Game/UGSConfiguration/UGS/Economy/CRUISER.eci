@@ -1,0 +1,19 @@
+{
+  "type": "INVENTORY_ITEM",
+  "id": "CRUISER",
+  "name": "Cruiser",
+  "customData": {
+    "attack": 2,
+    "cost": 3,
+    "effectDescription": "Fish with a touch of dynamite.",
+    "health": 5,
+    "maxDeckable": 4,
+    "rarity": "rare",
+    "targetType": [
+      "ship",
+      "aircraft",
+      "submarine"
+    ],
+    "type": "ship"
+  }
+}

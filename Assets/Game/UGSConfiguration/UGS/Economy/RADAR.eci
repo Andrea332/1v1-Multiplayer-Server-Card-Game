@@ -1,0 +1,16 @@
+{
+  "type": "INVENTORY_ITEM",
+  "id": "RADAR",
+  "name": "Radar",
+  "customData": {
+    "cost": 2,
+    "effectDescription": "Active only if you have Aircraft or Ship: Shows 1 covered opponent defense",
+    "maxDeckable": 3,
+    "rarity": "common",
+    "targetType": [
+      "ship",
+      "aircraft"
+    ],
+    "type": "support"
+  }
+}

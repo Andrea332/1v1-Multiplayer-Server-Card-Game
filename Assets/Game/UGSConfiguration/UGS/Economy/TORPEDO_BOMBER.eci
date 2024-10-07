@@ -1,0 +1,19 @@
+{
+  "type": "INVENTORY_ITEM",
+  "id": "TORPEDO_BOMBER",
+  "name": "Torpedo Bomber",
+  "customData": {
+    "attack": 3,
+    "cost": 5,
+    "effectDescription": "Who caught the most fish today?. ROA: This card can move along the entire attack row the specified number of slots",
+    "health": 5,
+    "maxDeckable": 4,
+    "rarity": "epic",
+    "targetType": [
+      "ship",
+      "aircraft",
+      "tank"
+    ],
+    "type": "aircraft"
+  }
+}

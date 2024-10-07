@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84db47d5ec76b604db6c00d8bab4528d, type: 3}
+  m_Name: Fighter_Aircraft_Ability
+  m_EditorClassIdentifier: 
+  uiPosition: 15
+  slotShift: 1
+  slotAvailabilityManagerAircraftPrefab: {fileID: 5203505818548364070, guid: 21e363f58a8ceb640a652e6b487710ab, type: 3}

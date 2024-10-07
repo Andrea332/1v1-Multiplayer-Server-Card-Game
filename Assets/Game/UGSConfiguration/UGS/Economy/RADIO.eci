@@ -1,0 +1,17 @@
+{
+  "type": "INVENTORY_ITEM",
+  "id": "RADIO",
+  "name": "Radio",
+  "customData": {
+    "cost": 4,
+    "effectDescription": " Equippable only to Tanks or Ships: Allows extra attack",
+    "health": 3,
+    "maxDeckable": 3,
+    "rarity": "epic",
+    "targetType": [
+      "ship",
+      "tank"
+    ],
+    "type": "support"
+  }
+}

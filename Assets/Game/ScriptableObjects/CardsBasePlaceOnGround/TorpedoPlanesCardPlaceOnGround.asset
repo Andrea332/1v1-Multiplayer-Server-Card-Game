@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65bf415e4d29a1c41b379ca7c11a8df3, type: 3}
+  m_Name: TorpedoPlanesCardPlaceOnGround
+  m_EditorClassIdentifier: 
+  uiPosition: 15
+  slotAvailabilityManagerPrefab: {fileID: 2610693984458843176, guid: f4bb20f7f0aa7a5498a3f78fe9d64976, type: 3}
+  spawnedSlotAvailabilityManager: {fileID: 0}
+  placeAbleItems:
+  - {fileID: 11400000, guid: e9e2f49f38648144581cf73f53eb2512, type: 2}

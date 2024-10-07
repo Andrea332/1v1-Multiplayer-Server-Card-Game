@@ -1,0 +1,14 @@
+{
+  "type": "INVENTORY_ITEM",
+  "id": "AIR_CEMETERY",
+  "name": "Air Cemetery",
+  "customData": {
+    "effectDescription": "Resurrect up to a maximum of six aircraftand place them on the field",
+    "maxDeckable": 1,
+    "rarity": "qg",
+    "targetType": [
+      "aircraft"
+    ],
+    "type": "aircraft"
+  }
+}

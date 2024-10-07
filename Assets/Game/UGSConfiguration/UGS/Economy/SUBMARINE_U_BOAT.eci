@@ -1,0 +1,18 @@
+{
+  "type": "INVENTORY_ITEM",
+  "id": "SUBMARINE_U_BOAT",
+  "name": "Submarine U-Boat",
+  "customData": {
+    "attack": 1,
+    "cost": 1,
+    "effectDescription": "No one keeps secrets better than him. Dive: can target and be targeted only by submarines. Attacks directly if there are no submerged cards.",
+    "health": 2,
+    "maxDeckable": 4,
+    "rarity": "common",
+    "targetType": [
+      "ship",
+      "submarine"
+    ],
+    "type": "submarine"
+  }
+}

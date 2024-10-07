@@ -1,0 +1,18 @@
+{
+  "type": "INVENTORY_ITEM",
+  "id": "LIGHT_TANK",
+  "name": "Light Tank",
+  "customData": {
+    "attack": 1,
+    "cost": 1,
+    "effectDescription": "Tiny but deadly.",
+    "health": 4,
+    "maxDeckable": 4,
+    "rarity": "common",
+    "targetType": [
+      "tank",
+      "aircraft"
+    ],
+    "type": "tank"
+  }
+}

@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 907c0b5597875fe488e56021a2fbc889, type: 3}
+  m_Name: Superkanone_Ability
+  m_EditorClassIdentifier: 
+  defenseType: {fileID: 11400000, guid: 8a9caef414041a942a73ac221ace05fc, type: 2}

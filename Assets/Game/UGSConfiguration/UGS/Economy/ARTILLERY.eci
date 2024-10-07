@@ -1,0 +1,13 @@
+{
+  "type": "INVENTORY_ITEM",
+  "id": "ARTILLERY",
+  "name": "Artillery",
+  "customData": {
+    "cost": 4,
+    "effectDescription": "Destroy a tank",
+    "health": 3,
+    "maxDeckable": 3,
+    "rarity": "rare",
+    "type": "support"
+  }
+}

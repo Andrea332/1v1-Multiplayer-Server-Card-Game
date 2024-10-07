@@ -1,0 +1,12 @@
+{
+  "type": "INVENTORY_ITEM",
+  "id": "DEPTH_CHARGE",
+  "name": "Depth charge",
+  "customData": {
+    "cost": 2,
+    "effectDescription": "Activate when a submarine attacks: Inflict 3 damage, destroy this card ",
+    "maxDeckable": 4,
+    "rarity": "common",
+    "type": "defense"
+  }
+}

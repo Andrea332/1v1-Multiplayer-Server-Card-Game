@@ -1,0 +1,14 @@
+{
+  "type": "INVENTORY_ITEM",
+  "id": "SUPERKANONE",
+  "name": "Superkanone",
+  "customData": {
+    "effectDescription": "Destroys all defense cards of the opponent",
+    "maxDeckable": 1,
+    "rarity": "qg",
+    "targetType": [
+      "tank"
+    ],
+    "type": "tank"
+  }
+}

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86daf6e051c9fd243b6e0d0f26ebcd22, type: 3}
+  m_Name: Air Cemetery_Ability
+  m_EditorClassIdentifier: 
+  aircraftType: {fileID: 11400000, guid: 61563bf419a834e4d81a4bb32a2c2b3d, type: 2}
+  airCemeteryManager: {fileID: 698058561681359718, guid: 60d7c3fccaaa4804fb4c802a378d5e76, type: 3}
+  cardBuilder: {fileID: 11400000, guid: 6cb65f9e3e7ab3248b626d8dd8d5381d, type: 2}

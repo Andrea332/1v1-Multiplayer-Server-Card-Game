@@ -1,0 +1,12 @@
+{
+  "type": "INVENTORY_ITEM",
+  "id": "REPAIRS",
+  "name": "Repairs",
+  "customData": {
+    "cost": 2,
+    "effectDescription": "+5 Life",
+    "maxDeckable": 3,
+    "rarity": "common",
+    "type": "support"
+  }
+}

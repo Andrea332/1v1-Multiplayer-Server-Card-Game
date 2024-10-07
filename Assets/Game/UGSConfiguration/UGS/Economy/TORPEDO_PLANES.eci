@@ -1,0 +1,18 @@
+{
+  "type": "INVENTORY_ITEM",
+  "id": "TORPEDO_PLANES",
+  "name": "Torpedo Planes",
+  "customData": {
+    "cost": 2,
+    "effectDescription": "Equippable only to Ships: deal 2 extra damage to Ships and Submarines",
+    "health": 3,
+    "maxDeckable": 3,
+    "rarity": "common",
+    "requirement": "ship",
+    "targetType": [
+      "ship",
+      "submarine"
+    ],
+    "type": "support"
+  }
+}

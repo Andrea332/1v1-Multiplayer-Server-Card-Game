@@ -1,0 +1,13 @@
+{
+  "type": "INVENTORY_ITEM",
+  "id": "MILITARY_ANTENNA",
+  "name": "Military antenna",
+  "customData": {
+    "cost": 2,
+    "effectDescription": "Earn +2 points, can only be damaged by tank",
+    "health": 10,
+    "maxDeckable": 4,
+    "rarity": "rare",
+    "type": "defense"
+  }
+}
